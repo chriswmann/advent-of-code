@@ -18,9 +18,9 @@ from aoc_2021 import (
 
 if __name__ == "__main__":
 
-    print('Day 1, 2021')
+    print("Day 1, 2021")
     DayOne2021(year=2021, day=1)
-    print('Day 2, 2021')
+    print("Day 2, 2021")
     DayTwo2021(year=2021, day=2)
-    print('Day 3, 2021')
+    print("Day 3, 2021")
     DayThree2021(year=2021, day=3)

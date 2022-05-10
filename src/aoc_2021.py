@@ -114,8 +114,7 @@ class DayTwo2021(AbstractSolutionClass):
 
 class DayThree2021(AbstractSolutionClass):
     def prep_data(self) -> None:
-        """Transform input to list the digits by column instead of row.
-        """
+        """Transform input to list the digits by column instead of row."""
         self.diagnostics: List[str] = [row for row in self.data.split("\n")]
         self.n_columns: int = len(self.diagnostics[0])
         self.n_rows: int = len(self.diagnostics)
